@@ -1,0 +1,18 @@
+{
+    "description": "Make grave_accent_and_tilde act as Shift in all cases",
+    "manipulators": [
+        {
+            "from": { "key_code": "grave_accent_and_tilde" },
+            "to": { "key_code": "left_shift" },
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "grave_accent_and_tilde",
+                "modifiers": { "optional": ["any"] }
+            },
+            "to": { "key_code": "left_shift" },
+            "type": "basic"
+        }
+    ]
+}
